@@ -1,3 +1,19 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* General body styles */
+body {
+    background-color: #f8fafc; 
+    font-family: 'Figtree', sans-serif; 
+    color: #333; 
+}
+
+/* Header styles */
+header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+/* Footer styles */
+footer {
+    background-color: #ffffff; 
+    text-align: center; 
+    padding: 10px 0; 
+}

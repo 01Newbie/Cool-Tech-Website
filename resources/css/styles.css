@@ -1,0 +1,35 @@
+/* Style for anchor (link) elements */
+a {
+    color: #007bff; 
+    text-decoration: none; 
+}
+
+/* Style for anchor elements on hover */
+a:hover {
+    text-decoration: underline; 
+}
+
+/* Style for unordered lists */
+ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+/* Style for list items within unordered lists */
+ul li {
+    display: inline;
+    margin-right: 15px; 
+}
+
+
+body {
+    background-color: #f8f9fa; 
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
